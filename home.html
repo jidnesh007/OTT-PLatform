@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Movie</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style></style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <div class="logo"></div>
+        <a class="navbar-brand" href="#">AMITEX</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#webseries">Webseries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div style="margin-right: 20px" class="dropdown text-end">
+            <a
+              href="#"
+              class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://github.com/mdo.png"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="background-img">
+      <h1 class="content-title">WATCH</h1>
+      <p class="content-desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+        aspernatur laborum sed maxime.
+      </p>
+      <a href="http://127.0.0.1:5500/mov/starwars.html"
+        ><button type="button" class="btn btn-secondary">Watch Now</button></a
+      >
+    </div>
+    <div id="webseries" class="movie-list-container">
+      <p class="movie-list-title">TOP-RATED</p>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/moneyheist.html"
+              ><img
+                class="movie-list-image"
+                src="/image/moneyhesit4.avif"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Money Heist</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/breakbad.html"
+              ><img class="movie-list-image" src="/image/mov2.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Breaking Bad</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/stranger.html"
+              ><img class="movie-list-image" src="/image/mov3.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Stranger Things</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/got.html"
+              ><img class="movie-list-image" src="/image/mov4.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">GOT</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/lucifer.html"
+              ><img class="movie-list-image" src="/image/mov5.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Lucifer</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <img class="movie-list-image" src="/image/mov6.jpg" alt="" />
+            <a href="http://127.0.0.1:5500/webseries/friends.html"
+              ><span class="movie-list-item-title">Freinds</span></a
+            >
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/webseries/narcos.html"
+              ><img class="movie-list-image" src="/image/mov7.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Narcos</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="movie-list-container">
+      <p class="movie-list-title">INDIAN SHOWS</p>
+      <div class="movie-list-wrapper">
+        <div class="movie-list">
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/panch.html"
+              ><img class="movie-list-image" src="/image/bol1.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Panchayat</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/asur.html"
+              ><img class="movie-list-image" src="/image/bol2.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Asur</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/crim.html"
+              ><img class="movie-list-image" src="/image/bol3.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Criminal Justice</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/sac.html">
+              <img class="movie-list-image" src="/image/bol4.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Sacred Games</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/mir.html"
+              ><img class="movie-list-image" src="/image/bol5.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Mirzapur</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/scam.html"
+              ><img class="movie-list-image" src="/image/bol6.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Scam 1992</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/indianshow/fam.html"
+              ><img class="movie-list-image" src="/image/bol7.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Family Man</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="background2-img">
+      <h1 class="content-title">WATCH</h1>
+      <p class="content-desc">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+        aspernatur laborum sed maxime.
+      </p>
+      <a href="http://127.0.0.1:5500/mov/dark.html"
+        ><button type="button" class="btn btn-secondary">Watch Now</button></a
+      >
+    </div>
+    <div class="movie-list-container">
+      <p class="movie-list-title">MOVIES</p>
+      <div class="movie-list-wrapper">
+        <div id="movies" class="movie-list">
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/dangal.html"
+              ><img
+                class="movie-list-image"
+                src="/image/show8.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Dangal</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/bahubali.html">
+              <img class="movie-list-image" src="/image/show9.jpg" alt=""
+            /></a>
+            <span class="movie-list-item-title">Bahubali</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/wolf.html"
+              ><img
+                class="movie-list-image"
+                src="/image/71-z69WkDcL._AC_UF1000,1000_QL80_.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Wolf Street</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/avenger.html"
+              ><img
+                class="movie-list-image"
+                src="/image/show4.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Avengers</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/avatar.html"
+              ><img
+                class="movie-list-image"
+                src="/image/show5.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Avatar</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/harry.html"
+              ><img
+                class="movie-list-image"
+                src="/image/show6.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Harry Potter</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+          <div class="movie-list-item">
+            <a href="http://127.0.0.1:5500/mov/joker.html"
+              ><img
+                class="movie-list-image"
+                src="/image/show7.jpg"
+                alt=""
+            /></a>
+            <span class="movie-list-item-title">Joker</span>
+            <p class="movie-list-item-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              placea!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Ratione, veritatis.
+            </p>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow"></i>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
